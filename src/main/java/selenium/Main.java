@@ -10,9 +10,9 @@ public class Main {
 		ChooseMethods methods = new ChooseMethods();
 
 		methods.serverConnectionProxy();// Connect to server
-		/*methods.copyFiletoServer();
+		methods.copyFiletoServer();
 		methods.performeETL();
-
+/*
 		if (methods.scriptType().equals("soma")) {
 			methods.performeSOMA();
 			methods.downloadSomalogfile();
